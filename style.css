@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     transform: all .2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html{
@@ -12,3 +13,110 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container{
+    width: 40rem;
+    background: black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.top{
+    display: flex;
+    gap: .5rem;
+}
+
+.bottom{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+
+
+
+.output{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.input{
+    padding: 1.2rem;
+    border: .1rem solid black;
+}
+
+.btn{
+    background: green;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.2rem;
+    cursor: pointer;
+}
+
+#range{
+    width: 20rem;
+    /* height: 5rem; */
+    padding: 1rem 0;
+}
+
+#range-val{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* 
+button{
+    padding: 2rem;
+    font-size: 1.7rem;
+    background: green;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+#generate{
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: block;
+    margin: 1rem 0;
+}
+
+#box{
+    padding: 1.5rem 1rem;
+    border: .1rem solid black;
+}
+
+.box{
+    padding: 1.5rem 1rem;
+    border: .1rem solid black;
+    background: green;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: green;
+}
+
+.input{
+    border: .1rem solid black;
+    padding: 2rem;
+} */

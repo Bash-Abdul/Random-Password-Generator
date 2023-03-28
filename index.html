@@ -8,9 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- <button id="btn" onclick="display()">Generate</button>
+
+    <p id="generate"></p>
+
+    <input type="text" placeholder="password" id="box">
+    <input type="submit" value="Submit" class="box">
+
+    <p class="result"></p> -->
+
+    <div class="container">
+        <!-- <p class="output"></p> -->
+        <div class="top">
+            <input type="text" class="input">
+            <input type="submit" value="Submit" class="btn" onclick="generatePassword()">  
+        </div>
     
-
-
+        <div class="bottom">
+            <input type="range" id="range" min="6" max="15" value="6" oninput="generatePassword()">
+            <p id="range-val">6</p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
