@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -22,12 +23,13 @@
         <!-- <p class="output"></p> -->
         <div class="top">
             <input type="text" class="input">
-            <input type="submit" value="Submit" class="btn" onclick="generatePass()">  
+            <!-- <input type="submit" value="Submit" class="btn" onclick="generatePass()">   -->
+            <a href="#" onclick="generatePass()" class="shuffle bx bx-shuffle"></a>
         </div>
     
         <div class="bottom">
             <input type="range" id="range" min="6" max="15" value="6" oninput="generatePass()">
-            <p id="range-val">6</p>
+            <span id="range-val">6</span>
         </div>
     </div>
 
